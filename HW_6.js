@@ -62,7 +62,7 @@
 //   let result = [];
 //   numbers.reduce((sum, el, i) => {
 //     return (result[i] = sum + el);
-//   }, 0);
+//   }, []);
 //   return result;
 // };
 // console.log(currentSums(numbers));
@@ -337,10 +337,9 @@
 // в качестве результата функция будет возвращать сумму всех четных элементов.
 // Для решения использовать цикл for (... of ...).
 
-// const arr = [1, 4, 7, 8];
-// function getEvenSum(arr) {
+// function getEvenSum(...args) {
 //   let sum = 0;
-//   for (let value of arr) {
+//   for (let value of args) {
 //     if (value % 2 === 0) {
 //       sum += value;
 //     } else {
@@ -349,7 +348,7 @@
 //   }
 //   return sum;
 // }
-// console.log(getEvenSum(arr));
+// console.log(getEvenSum(1, 4, 7, 2));
 
 // 16
 
