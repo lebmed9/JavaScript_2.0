@@ -172,10 +172,12 @@
 // Напишите код, преобразующий массив цифр, которые располагаются неупорядоченно,
 // в массив цифр расположенных по убыванию их значений.
 // const numbers = [5, 7, 2, 9, 3, 1, 8];
+
 // const getMaxNumber =(numbers) => {
 //     let array = [];
 //     numbers.forEach(() => {
 //         let array2 = numbers.filter((el) => array.indexOf(el) === -1)
+//         console.log(array2);
 //         array.push(Math.max(...array2))
 //     })
 //     return array
